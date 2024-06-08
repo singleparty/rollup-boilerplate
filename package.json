@@ -5,6 +5,10 @@
   "main": "./dist/index.js",
   "module": "./dist/index.esm.js",
   "types": "./dist/types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singleparty/rollup-boilerplate.git"
+  },
   "scripts": {
     "dev": "rimraf dist && rollup -c rollup.config.ts -w --configPlugin rollup-plugin-typescript2 --forceExit",
     "clean:dist": "rimraf dist",
